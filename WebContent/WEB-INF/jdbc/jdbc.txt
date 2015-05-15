@@ -1,0 +1,10 @@
+{"DataGuru":{
+				"Server":"sqlserver",
+				"sourceDetail":"localhost",
+				"port":"1433",
+				"DataBaseName":"InnovationTestPortal",
+				"username":"sa",
+				"Password":"Shivane78()",
+				"driver":"com.microsoft.sqlserver.jdbc.SQLServerDriver"
+	}
+}

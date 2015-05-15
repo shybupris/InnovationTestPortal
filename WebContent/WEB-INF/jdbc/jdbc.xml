@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jdbc SYSTEM "jdbc.dtd">
+<!-- Example Microsoft SQL Server connectivity -->
+<jdbc>
+    <driver name="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+   	<server url="jdbc:sqlserver://localhost:1433;DatabaseName=InnovationTestPortal;User=java;Password=Shivane78();" />
+    <identity query="SELECT @@IDENTITY" column="SystemId" type="int" modifier="IDENTITY" />
+    <database prefix="" />
+    <debug level="1" />
+    <param name="delegate" value="net.inov.tec.data.SQLServer2008Delegate" />
+	<param name="SQLRelationDelegate" value="com.iscs.common.tech.bean.data.SqlServerRelationDelegate" />
+	<param name="isolation" value="read committed" /> 
+</jdbc>
